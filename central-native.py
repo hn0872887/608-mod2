@@ -1,6 +1,5 @@
 
-#grades = [85, 93, 45, 89, 85]
-grades = []
+grades = [85, 93, 45, 89, 85]
 
 count = len(grades)
 print("count: " + str(count))
