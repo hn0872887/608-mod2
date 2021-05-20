@@ -8,6 +8,6 @@ print(sum)
 mean = sum/count
 print(mean)
 
-print(statistics.mean(list))
-print(statistics.median(list))
-print(statistics.mode(list))
+print("mean is: " + str(statistics.mean(list)))
+print("median is: " + str(statistics.median(list)))
+print("mode is: " + str(statistics.mode(list)))
