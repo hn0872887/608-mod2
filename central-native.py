@@ -19,3 +19,22 @@ else:
     median = grades[len(grades) // 2]
 
 print("median: " + str(median))
+
+print("\n\n\n")
+tempGrades = []
+countGrades = []
+count = 1
+tempGrade = 0
+for grade in grades:
+    if grade != tempGrade:
+        count = count
+        tempGrades.append(grade)
+        countGrades.append(count)
+    else:
+        count = count + 1
+        tempGrades.append(grade)
+        countGrades.append(count)
+
+print(tempGrades)
+print(countGrades)
+ 
